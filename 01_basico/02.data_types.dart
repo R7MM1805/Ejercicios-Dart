@@ -29,6 +29,7 @@ main() {
   How are you?
   $fullName
   """;
+  /*
   print(name);
   print('----------');
   print(lastName);
@@ -38,4 +39,17 @@ main() {
   print(test2);
   print('----------');
   print(multiLine);
+  */
+
+  /* Booleans */
+
+  bool isActive = true;
+  bool isNotActive = !isActive;
+  bool? canRead;
+
+  print(isActive);
+  print('----------');
+  print(isNotActive);
+  print('----------');
+  print(canRead);
 }
