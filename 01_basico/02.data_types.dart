@@ -62,6 +62,7 @@ main() {
   List<double> salaries = [15590.20, 4520.89, 589653.02, 8745896.25];
   List<dynamic> info = ['Ricardo', 'Metzger', 29, false, 5500.00];
 
+  /*
   print(heroes);
   print('----------');
   print(ages);
@@ -69,4 +70,14 @@ main() {
   print(salaries);
   print('----------');
   print(info);
+  */
+
+  /* Sets */
+  Set<String> names = {'Violeta', 'Alvaro', 'Ricardo', 'Rosa', 'Alvaro'};
+  heroes.add('Batman');
+  print(names);
+  print('----------');
+  print(heroes);
+  print('----------');
+  print(heroes.toSet());
 }
