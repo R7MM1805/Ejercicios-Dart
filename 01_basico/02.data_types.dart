@@ -75,9 +75,22 @@ main() {
   /* Sets */
   Set<String> names = {'Violeta', 'Alvaro', 'Ricardo', 'Rosa', 'Alvaro'};
   heroes.add('Batman');
+  /*
   print(names);
   print('----------');
   print(heroes);
   print('----------');
   print(heroes.toSet());
+  */
+
+  /* Maps */
+  Map<String, dynamic> userMap = {
+    'name': 'Ricardo',
+    'lastName': 'Metzger',
+    'age': 30,
+    'IsMarried': false
+  };
+  print(userMap);
+  print('----------');
+  print(userMap['lastName']);
 }
