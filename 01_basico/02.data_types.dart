@@ -47,9 +47,26 @@ main() {
   bool isNotActive = !isActive;
   bool? canRead;
 
+  /*
   print(isActive);
   print('----------');
   print(isNotActive);
   print('----------');
   print(canRead);
+  */
+
+  /* Lists */
+
+  List<String> heroes = ['Iron Man', 'Batman', 'Superman', 'Captain America'];
+  List<int> ages = [30, 29, 27, 50];
+  List<double> salaries = [15590.20, 4520.89, 589653.02, 8745896.25];
+  List<dynamic> info = ['Ricardo', 'Metzger', 29, false, 5500.00];
+
+  print(heroes);
+  print('----------');
+  print(ages);
+  print('----------');
+  print(salaries);
+  print('----------');
+  print(info);
 }
