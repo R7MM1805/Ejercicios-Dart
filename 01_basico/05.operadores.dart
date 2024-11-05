@@ -34,7 +34,9 @@ main() {
    * Validan el tipo de dato
   */
 
+  // ignore: unnecessary_type_check
   print(person1 is String);
+  // ignore: unnecessary_type_check
   print(x is int);
   print(person2 is double);
   print(y is bool);
