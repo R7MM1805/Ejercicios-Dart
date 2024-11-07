@@ -1,21 +1,21 @@
 main() {
   /* Enteros */
   int a = 5;
-  //print(a);
+  print(a);
 
   /* Decimales */
   double b = 5.5;
-  //print(b);
+  print(b);
 
   /* Null Safety */
   int? c;
-  //print(c);
+  print(c);
 
   /* Operaciones */
   int d = 10;
   int e = 10;
   int result = d + e;
-  //print(result);
+  print(result);
 
   /* String */
 
@@ -29,7 +29,7 @@ main() {
   How are you?
   $fullName
   """;
-  /*
+
   print(name);
   print('----------');
   print(lastName);
@@ -39,7 +39,6 @@ main() {
   print(test2);
   print('----------');
   print(multiLine);
-  */
 
   /* Booleans */
 
@@ -47,13 +46,11 @@ main() {
   bool isNotActive = !isActive;
   bool? canRead;
 
-  /*
   print(isActive);
   print('----------');
   print(isNotActive);
   print('----------');
   print(canRead);
-  */
 
   /* Lists */
 
@@ -62,7 +59,6 @@ main() {
   List<double> salaries = [15590.20, 4520.89, 589653.02, 8745896.25];
   List<dynamic> info = ['Ricardo', 'Metzger', 29, false, 5500.00];
 
-  /*
   print(heroes);
   print('----------');
   print(ages);
@@ -70,18 +66,17 @@ main() {
   print(salaries);
   print('----------');
   print(info);
-  */
 
   /* Sets */
+  // ignore: equal_elements_in_set
   Set<String> names = {'Violeta', 'Alvaro', 'Ricardo', 'Rosa', 'Alvaro'};
   heroes.add('Batman');
-  /*
+
   print(names);
   print('----------');
   print(heroes);
   print('----------');
   print(heroes.toSet());
-  */
 
   /* Maps */
   Map<String, dynamic> userMap = {
