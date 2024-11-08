@@ -7,4 +7,8 @@ void main(List<String> args) {
     ..lastName = 'Metzger'
     ..age = 30;
   print(person);
+  print(person.country);
+  person.country = 'NUEVO PAIS';
+  print(person.country);
+  print(person);
 }

@@ -3,8 +3,10 @@ class People {
   String name = '';
   String lastName = '';
   int age = 0;
-  String _country = 'Peru';
+  String? _country = 'Peru';
   //Getter and Setters
+  String? get country => _country?.toUpperCase() ?? 'No hay país';
+  set country(String? value) => _country = value;
   //Constructor
   //Methods
   @override
