@@ -19,6 +19,14 @@ class People {
     print('Constructor');
   }
 
+  People.peopleFullName(String name, String lastName) {
+    this.name = name;
+    this.lastName = lastName;
+    this.age = 30;
+    this.country = 'Alemania';
+    print('Constructor por nombre');
+  }
+
   //Methods
   @override
   String toString() =>
