@@ -1,11 +1,7 @@
 import 'clases/people.dart';
 
 void main(List<String> args) {
-  final person = new People();
-  person
-    ..name = 'Ricardo'
-    ..lastName = 'Metzger'
-    ..age = 30;
+  final person = new People('Ricardo', 'Metzger', country: 'Perú');
   print(person);
   print(person.country);
   person.country = 'NUEVO PAIS';
