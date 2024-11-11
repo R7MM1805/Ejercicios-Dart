@@ -3,7 +3,7 @@ void main(List<String> args) {
   String lastName = 'Metzger';
   String fullName = '$name $lastName';
   print('String: $fullName');
-  print('Lenght: ${fullName.length}');
+  print('Length: ${fullName.length}');
   print('Contains R: ${fullName.contains('R')}');
   print('Contains A desde index 2: ${fullName.contains('a', 2)}');
   print('EndsWith: ${fullName.endsWith('r')}');
